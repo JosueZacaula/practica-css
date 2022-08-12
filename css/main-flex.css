@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 20px 0;
+}
+
+.logo {
+    height: 60px;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.social {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+section {
+    margin: 40px 20px 0;
+}
+
+.relative {
+    border: 2px solid red;
+    width: 800px;
+    height: 300px;
+    position: relative;
+}
+.absolute {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
