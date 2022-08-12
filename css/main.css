@@ -1,0 +1,36 @@
+header  {
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+
+header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+
+}    
+
+.logo {
+    width: 15%;
+
+}
+
+.navbar {
+    width: 70%;
+    text-align: center;
+
+}
+
+.social {
+    width: 15%;
+    text-align: right;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+section {
+    margin: 40px 20px 0;
+
+}
